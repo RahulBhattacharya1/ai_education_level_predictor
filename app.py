@@ -5,7 +5,7 @@ import joblib
 st.title("Education Level Predictor (Compact Model)")
 
 # Choose which model file you uploaded
-MODEL_PATH = "/models/edu_pipeline.joblib"  # or "edu_pipeline_sgd.joblib"
+MODEL_PATH = "models/edu_pipeline.joblib"  # or "edu_pipeline_sgd.joblib"
 
 @st.cache_resource
 def load_model():
